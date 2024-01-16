@@ -1,7 +1,0 @@
-name: crystal_grpc_test
-version: 0.1.0
-dependencies:
-  logger:
-    github: crystal-lang/logger.cr
-  grpc:
-    github: jgaskins/grpc

@@ -25,7 +25,7 @@ for benchmark in ${BENCHMARKS_TO_BUILD}; do
 
 	echo "==> Building Docker image for ${benchmark}..."
 	( (
-		DOCKER_BUILDKIT=1 docker image build \
+		DOCKER_BUILDKIT=0 docker image build \
 			--force-rm \
 			--pull \
 			--compress \
